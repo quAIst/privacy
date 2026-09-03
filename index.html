@@ -16,8 +16,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#FFF6E0; --canvas:#FFFFFF; --ink:#2B3A30; --ink-soft:#5B6B5E; --line:#EFE0BB;
-    --brand:#2FA06E; --brand-deep:#1D7A50; --brand-light:#D8F5E4; --accent:#FFC22E;
+    --paper:#FFF3D2; --canvas:#FFFFFF; --ink:#2B3A30; --ink-soft:#5B6B5E; --line:#EFE0BB;
+    --brand:#17C77E; --brand-deep:#0E9C5C; --brand-light:#CFF7DE; --accent:#FFC22E;
   }
   *{box-sizing:border-box;}
   body{ margin:0; font-family:'Nunito',sans-serif; color:var(--ink); background:var(--paper); line-height:1.65; }
@@ -25,12 +25,12 @@
   a{ color:var(--brand-deep); }
 
   header{
-    background:radial-gradient(circle at 20% 20%, #3fc17e, var(--brand-deep) 80%);
+    background:radial-gradient(circle at 20% 20%, var(--brand), var(--brand-deep) 80%);
     color:#fff; padding:44px 20px 34px; text-align:center;
   }
-  .logo-badge{ width:76px;height:76px;border-radius:50%; background:rgba(255,255,255,0.18); border:2px solid rgba(255,255,255,0.55);
+  .logo-badge{ width:76px;height:76px;border-radius:50%; background:rgba(255,255,255,0.18); border:3px solid rgba(255,255,255,0.6); box-shadow:0 4px 0 rgba(0,0,0,0.12);
     display:flex; align-items:center; justify-content:center; margin:0 auto 12px; position:relative; }
-  .logo-badge svg{ width:65px;height:65px; }
+  .logo-badge svg{ width:55px;height:55px; }
   .q-tail{ position:absolute; background:rgba(255,255,255,0.95); border-radius:1.8px; transform:rotate(-38deg); }
   header h1{ font-size:32px; }
   header .wordmark span.hl{ color:#FFE27A; font-weight:800; }
@@ -63,14 +63,12 @@
 
 <header>
   <div class="logo-badge">
-    <svg viewBox="0 0 24 24" fill="none">
-      <path d="M9 3.5c-2 0-3.5 1.6-3.5 3.4 0 .5.1 1 .3 1.4C4.7 8.8 4 9.9 4 11.2c0 1.4.9 2.6 2.1 3-0.1 0.3-0.1 0.6-0.1 0.9 0 1.9 1.5 3.4 3.4 3.4h.6M9 3.5c1.1 0 2.1.5 2.7 1.3M9 3.5v15M12 20h1.6c1.9 0 3.4-1.5 3.4-3.4 0-.3 0-.6-.1-.9 1.2-.4 2.1-1.6 2.1-3 0-1.3-.7-2.4-1.8-2.9.2-.4.3-.9.3-1.4C17.5 5.1 16 3.5 14 3.5c-1.1 0-2.1.5-2.7 1.3" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M12.4 6.6h2.1M12.4 9.7h1.5M13.9 9.7v2.5M12.4 14.6h2.2M14.6 14.6v1.8h-1.6" stroke="#fff" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+    <svg viewBox="2.6 2.85 17.8 17.8" fill="none">
+      <path d="M9 3.5c-2 0-3.5 1.6-3.5 3.4 0 .5.1 1 .3 1.4C4.7 8.8 4 9.9 4 11.2c0 1.4.9 2.6 2.1 3-0.1 0.3-0.1 0.6-0.1 0.9 0 1.9 1.5 3.4 3.4 3.4h.6M9 3.5c1.1 0 2.1.5 2.7 1.3M9 3.5v15M12 20h1.6c1.9 0 3.4-1.5 3.4-3.4 0-.3 0-.6-.1-.9 1.2-.4 2.1-1.6 2.1-3 0-1.3-.7-2.4-1.8-2.9.2-.4.3-.9.3-1.4C17.5 5.1 16 3.5 14 3.5c-1.1 0-2.1.5-2.7 1.3" stroke="#fff" stroke-width="0.97" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12.4 6.6h2.1M12.4 9.7h1.5M13.9 9.7v2.5M12.4 14.6h2.2M14.6 14.6v1.8h-1.6" stroke="#fff" stroke-width="0.71" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
       <circle cx="14.6" cy="6.6" r="0.85" fill="#fff"/><circle cx="13.9" cy="12.2" r="0.85" fill="#fff"/><circle cx="14.6" cy="14.6" r="0.85" fill="#fff"/>
     </svg>
-    <div class="q-tail" style="width:17px; height:3.5px; bottom:2px; right:0px;"></div>
-    <div class="q-tail" style="width:11px; height:3.5px; bottom:8px; right:5px;"></div>
-    <div class="q-tail" style="width:7px; height:3.5px; bottom:13px; right:9px;"></div>
+    <div class="q-tail" style="width:15px; height:4px; bottom:1px; right:0px; box-shadow:0 1px 0 rgba(0,0,0,0.12);"></div>
   </div>
   <h1 class="wordmark">qu<span class="hl">AI</span>st</h1>
   <p>Legal &amp; Privacy Information</p>
